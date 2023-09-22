@@ -36,15 +36,4 @@ public class CarrinhoDeCompras {
     public void exibirItens() {
         System.out.println(itemsList);
     }
-
-    public static void main(String[] args) {
-        CarrinhoDeCompras cart = new CarrinhoDeCompras();
-
-        cart.adicionarItem("Boneca Barbie", 12.90, 1);
-        cart.adicionarItem("Carrinho Hotwheels", 4.90, 1);
-        cart.adicionarItem("Bola Futebol", 10.30, 1);
-
-        cart.removerItem("Boneca Barbie");
-        cart.exibirItens();
-    }
 }
